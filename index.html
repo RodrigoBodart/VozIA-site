@@ -3,13 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VozIA - O Futuro do Atendimento Inteligente</title>
-    <meta name="description" content="VozIA: A IA mais avançada para atendimento multicanal. 99,9% autônoma, com sugestões de marketing personalizadas e acesso inteligente a links. Transforme seu negócio hoje.">
+    
+    <!-- SEO Meta Tags -->
+    <title>VozIA - Atendimento Inteligente com IA | Automatize até 99,9% do seu Atendimento</title>
+    <meta name="description" content="VozIA é uma plataforma de atendimento inteligente baseada em IA que oferece atendimento multicanal, clonagem de voz com biometria, acesso inteligente a links e marketing criado por IA. Automatize até 99,9% do seu atendimento ao cliente.">
+    <meta name="keywords" content="vozia, atendimento inteligente, inteligência artificial, clonagem de voz, atendimento multicanal, automação de atendimento, chatbot, IA">
+    <meta name="author" content="VozIA">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Portuguese">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vozia.pt/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vozia.pt/">
+    <meta property="og:title" content="VozIA - Atendimento Inteligente com IA">
+    <meta property="og:description" content="Automatize até 99,9% do seu atendimento ao cliente com nossa plataforma de IA avançada. Atendimento multicanal, clonagem de voz e muito mais.">
+    <meta property="og:image" content="https://vozia.pt/img/vozia_og_image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_PT">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://vozia.pt/">
+    <meta name="twitter:title" content="VozIA - Atendimento Inteligente com IA">
+    <meta name="twitter:description" content="Automatize até 99,9% do seu atendimento ao cliente com nossa plataforma de IA avançada. Atendimento multicanal, clonagem de voz e muito mais.">
+    <meta name="twitter:image" content="https://vozia.pt/img/vozia_og_image.jpg">
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    <link rel="preload" href="img/vozia_logo.png" as="image">
+    
+    <!-- Preconnect to External Resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "VozIA",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "49.00",
+            "priceCurrency": "EUR"
+        },
+        "description": "VozIA é uma plataforma de atendimento inteligente baseada em IA que oferece atendimento multicanal, clonagem de voz com biometria, acesso inteligente a links e marketing criado por IA.",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "127"
+        }
+    }
+    </script>
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "VozIA",
+        "url": "https://vozia.pt",
+        "logo": "https://vozia.pt/img/vozia_logo.png",
+        "sameAs": [
+            "https://facebook.com/vozia",
+            "https://twitter.com/vozia",
+            "https://linkedin.com/company/vozia",
+            "https://instagram.com/vozia"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+351-910-000-000",
+            "contactType": "customer service",
+            "availableLanguage": ["Portuguese", "English", "Spanish"]
+        }
+    }
+    </script>
 </head>
 <body>
     <!-- Loading Screen -->
@@ -22,768 +109,746 @@
             </div>
         </div>
     </div>
-
-    <!-- Header com navegação premium -->
+    
+    <!-- Header -->
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
-                <div class="logo-container">
-                    <span class="logo">🧠</span>
+                <a href="#" class="logo-container">
+                    <img src="img/vozia_logo.png" alt="VozIA Logo" class="logo" width="40" height="40">
                     <span class="brand-name">VozIA</span>
-                    <span class="version-badge">2.0</span>
-                </div>
+                    <span class="version-badge">3.0</span>
+                </a>
             </div>
             
-            <button class="nav-toggle" aria-label="Abrir menu de navegação">
+            <button class="nav-toggle" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
             
             <ul class="nav-menu">
-                <li><a href="#recursos" class="nav-link">Recursos</a></li>
-                <li><a href="#ia-avancada" class="nav-link">IA Avançada</a></li>
-                <li><a href="#casos-sucesso" class="nav-link">Casos de Sucesso</a></li>
-                <li><a href="#planos" class="nav-link">Planos</a></li>
-                <li><a href="#demo" class="nav-link nav-cta">Demo Gratuita</a></li>
+                <li><a href="#features" class="nav-link">Recursos</a></li>
+                <li><a href="#pricing" class="nav-link">Planos</a></li>
+                <li><a href="#testimonials" class="nav-link">Depoimentos</a></li>
+                <li><a href="#demo" class="nav-link">Demo</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+                <li><a href="/login" class="nav-link login-nav">Login</a></li>
+                <li><a href="#demo" class="nav-cta">Experimente Grátis</a></li>
             </ul>
+            
+            <button class="dark-mode-toggle" aria-label="Mudar para modo escuro">
+                <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
         </nav>
-        
-        <!-- Hero Section Premium -->
-        <div class="hero">
-            <div class="hero-content">
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content animate-on-scroll">
                 <div class="hero-badge">
-                    <span class="badge-icon">⚡</span>
-                    <span>99,9% Autônomo • IA Avançada • Marketing Inteligente</span>
+                    <span class="badge-icon">🚀</span>
+                    <span>Nova versão 3.0 lançada</span>
                 </div>
                 
-                <h1 class="hero-title">
-                    O <span class="gradient-text">Futuro do Atendimento</span><br>
-                    Chegou ao Seu Negócio
-                </h1>
+                <h1 class="hero-title">Revolucione seu <span class="gradient-text">Atendimento</span> com Inteligência Artificial</h1>
                 
-                <p class="hero-subtitle">
-                    VozIA é a única IA que não apenas atende seus clientes, mas também <strong>gera sugestões de marketing personalizadas</strong> e <strong>acessa links autorizados</strong> para maximizar suas vendas automaticamente.
-                </p>
+                <p class="hero-subtitle">VozIA é uma plataforma de atendimento inteligente baseada em IA que automatiza até 99,9% do seu atendimento ao cliente, oferecendo experiências personalizadas em todos os canais.</p>
                 
                 <div class="hero-stats">
                     <div class="stat-item">
-                        <div class="stat-number">300%</div>
-                        <div class="stat-label">Aumento em Vendas</div>
+                        <div class="stat-number" data-target="99.9">0</div>
+                        <div class="stat-label">Automação</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">99,9%</div>
-                        <div class="stat-label">Autonomia Total</div>
+                        <div class="stat-number" data-target="85">0</div>
+                        <div class="stat-label">Redução de Custos</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Disponibilidade</div>
+                        <div class="stat-number" data-target="24">0</div>
+                        <div class="stat-label">Atendimento 24/7</div>
                     </div>
                 </div>
                 
                 <div class="hero-actions">
                     <a href="#demo" class="btn btn-primary btn-large">
-                        <span class="btn-icon">🚀</span>
-                        Começar Demo Gratuita
+                        <span class="btn-icon">🎯</span>
+                        Experimente Grátis
                     </a>
-                    <a href="#recursos" class="btn btn-secondary btn-large">
-                        <span class="btn-icon">📊</span>
-                        Ver Recursos
+                    <a href="#features" class="btn btn-secondary btn-large ml-3">
+                        <span class="btn-icon">✨</span>
+                        Conheça os Recursos
                     </a>
                 </div>
             </div>
             
-            <!-- Hero Visual - Dashboard Interativo -->
             <div class="hero-visual">
                 <div class="dashboard-preview">
                     <div class="dashboard-header">
                         <div class="dashboard-title">VozIA Dashboard</div>
                         <div class="status-indicator active">
                             <span class="status-dot"></span>
-                            IA Ativa
+                            <span>Online</span>
                         </div>
                     </div>
                     
                     <div class="dashboard-content">
                         <div class="metric-card">
                             <div class="metric-icon">💬</div>
-                            <div class="metric-value" data-target="1247">0</div>
-                            <div class="metric-label">Conversas Hoje</div>
+                            <div class="metric-value" data-target="1458">0</div>
+                            <div class="metric-label">Conversas</div>
                         </div>
-                        
                         <div class="metric-card">
-                            <div class="metric-icon">💰</div>
-                            <div class="metric-value" data-target="15890">€0</div>
-                            <div class="metric-label">Vendas Geradas</div>
+                            <div class="metric-icon">⚡</div>
+                            <div class="metric-value" data-target="98">0</div>
+                            <div class="metric-label">Precisão (%)</div>
                         </div>
-                        
                         <div class="metric-card">
-                            <div class="metric-icon">🎯</div>
-                            <div class="metric-value" data-target="87">0%</div>
-                            <div class="metric-label">Taxa Conversão</div>
+                            <div class="metric-icon">⏱️</div>
+                            <div class="metric-value" data-target="3">0</div>
+                            <div class="metric-label">Tempo Médio (s)</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">😊</div>
+                            <div class="metric-value" data-target="96">0</div>
+                            <div class="metric-label">Satisfação (%)</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">🔄</div>
+                            <div class="metric-value" data-target="87">0</div>
+                            <div class="metric-label">Conversão (%)</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">📊</div>
+                            <div class="metric-value" data-target="42">0</div>
+                            <div class="metric-label">Insights</div>
                         </div>
                     </div>
                     
                     <div class="ai-activity">
-                        <div class="activity-header">Atividade da IA em Tempo Real</div>
+                        <div class="activity-header">Atividade em Tempo Real</div>
                         <div class="activity-feed">
                             <div class="activity-item">
-                                <span class="activity-icon">🔗</span>
-                                <span class="activity-text">Acessou catálogo de produtos para cliente João</span>
+                                <span class="activity-icon">💬</span>
+                                <span class="activity-text">Respondeu dúvida sobre planos para cliente Maria</span>
                                 <span class="activity-time">agora</span>
                             </div>
                             <div class="activity-item">
-                                <span class="activity-icon">📧</span>
-                                <span class="activity-text">Criou campanha de marketing para segmento premium</span>
-                                <span class="activity-time">2min</span>
+                                <span class="activity-icon">📊</span>
+                                <span class="activity-text">Gerou relatório de desempenho para equipe de vendas</span>
+                                <span class="activity-time">1min</span>
                             </div>
                             <div class="activity-item">
-                                <span class="activity-icon">🎯</span>
-                                <span class="activity-text">Sugeriu produto complementar - venda confirmada</span>
-                                <span class="activity-time">5min</span>
+                                <span class="activity-icon">🔔</span>
+                                <span class="activity-text">Enviou notificação de promoção para segmento premium</span>
+                                <span class="activity-time">2min</span>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Seção de Recursos Únicos -->
-    <section id="recursos" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Recursos que Fazem a Diferença</h2>
-                <p class="section-subtitle">Descubra por que o VozIA é a escolha de empresas que querem resultados extraordinários</p>
-            </div>
-            
-            <div class="features-grid">
-                <!-- Recurso 1: Acesso Inteligente a Links -->
-                <div class="feature-card premium">
-                    <div class="feature-header">
-                        <div class="feature-icon gradient">🔗</div>
-                        <div class="feature-badge">EXCLUSIVO</div>
-                    </div>
-                    <h3>Acesso Inteligente a Links</h3>
-                    <p>A IA acessa automaticamente seus catálogos, preços e promoções em tempo real para oferecer as melhores sugestões personalizadas a cada cliente.</p>
-                    <div class="feature-benefits">
-                        <div class="benefit-item">✅ Sugestões personalizadas em tempo real</div>
-                        <div class="benefit-item">✅ Acesso seguro a links autorizados</div>
-                        <div class="benefit-item">✅ Aumento de 300% nas vendas</div>
-                    </div>
-                </div>
-                
-                <!-- Recurso 2: Marketing Inteligente -->
-                <div class="feature-card premium">
-                    <div class="feature-header">
-                        <div class="feature-icon gradient">🎯</div>
-                        <div class="feature-badge">INOVADOR</div>
-                    </div>
-                    <h3>Marketing Criado pela IA</h3>
-                    <p>A IA analisa padrões de comportamento e cria automaticamente campanhas de marketing personalizadas para maximizar seus lucros.</p>
-                    <div class="feature-benefits">
-                        <div class="benefit-item">✅ Campanhas criadas automaticamente</div>
-                        <div class="benefit-item">✅ Segmentação inteligente de clientes</div>
-                        <div class="benefit-item">✅ ROI 500% superior</div>
-                    </div>
-                </div>
-                
-                <!-- Recurso 3: Atendimento Multicanal -->
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon"><img src="icon_multicanal.png" alt="Multicanal" class="feature-icon-img"></div>
-                    </div>
-                    <h3>Atendimento Multicanal Unificado</h3>
-                    <p>WhatsApp, e-mail, telefone, chat web - tudo integrado em uma única plataforma inteligente.</p>
-                    <div class="feature-benefits">
-                        <div class="benefit-item">✅ Integração com todos os canais</div>
-                        <div class="benefit-item">✅ Histórico unificado</div>
-                        <div class="benefit-item">✅ Resposta instantânea</div>
-                    </div>
-                </div>
-                
-                <!-- Recurso 4: Voz Clonada Avançada -->
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon"><img src="icon_voz_clonada.png" alt="Voz Clonada" class="feature-icon-img"></div>
-                    </div>
-                    <h3>Voz Clonada com Biometria</h3>
-                    <p>Tecnologia de ponta que clona vozes com perfeição e oferece autenticação biométrica segura.</p>
-                    <div class="feature-benefits">
-                        <div class="benefit-item">✅ Clonagem de voz realística</div>
-                        <div class="benefit-item">✅ Segurança biométrica</div>
-                        <div class="benefit-item">✅ Personalização total</div>
-                    </div>
-                </div>
-                
-                <!-- Recurso 5: Analytics Avançado -->
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon"><img src="icon_analytics.png" alt="Analytics" class="feature-icon-img"></div>
-                    </div>
-                    <h3>Analytics Preditivo</h3>
-                    <p>Relatórios inteligentes que preveem tendências e sugerem ações para maximizar resultados.</p>
-                    <div class="feature-benefits">
-                        <div class="benefit-item">✅ Previsões de vendas</div>
-                        <div class="benefit-item">✅ Análise de sentimento</div>
-                        <div class="benefit-item">✅ Insights acionáveis</div>
-                    </div>
-                </div>
-                
-                <!-- Recurso 6: Integração Total -->
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon"><img src="icon_integracao.png" alt="Integração" class="feature-icon-img"></div>
-                    </div>
-                    <h3>Integração com Qualquer Sistema</h3>
-                    <p>APIs abertas e integrações nativas com CRMs, ERPs e ferramentas de marketing.</p>
-                    <div class="feature-benefits">
-                        <div class="benefit-item">✅ APIs abertas e documentadas</div>
-                        <div class="benefit-item">✅ Integrações nativas</div>
-                        <div class="benefit-item">✅ Webhooks em tempo real</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Seção IA Avançada -->
-    <section id="ia-avancada" class="section section-dark">
+    
+    <!-- Features Section -->
+    <section class="section" id="features">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">IA que Pensa Como Você</h2>
-                <p class="section-subtitle">Tecnologia de ponta que aprende, adapta e evolui com seu negócio</p>
+                <h2 class="section-title">Recursos Avançados</h2>
+                <p class="section-subtitle">Descubra como o VozIA pode transformar seu atendimento ao cliente com tecnologia de ponta.</p>
             </div>
             
-            <div class="ai-showcase">
-                <div class="ai-demo">
-                    <div class="demo-header">
-                        <h3>Veja a IA em Ação</h3>
-                        <div class="demo-controls">
-                            <button class="demo-btn active" data-demo="links">Acesso a Links</button>
-                            <button class="demo-btn" data-demo="marketing">Marketing IA</button>
-                            <button class="demo-btn" data-demo="conversation">Conversa Natural</button>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-header">
+                        <div class="feature-icon">
+                            <img src="img/icon_multicanal.png" alt="Ícone Multicanal" class="feature-icon-img">
+                        </div>
+                        <div class="feature-badge">Popular</div>
+                    </div>
+                    <h3>Atendimento Multicanal</h3>
+                    <p>Unifique todos os seus canais de comunicação em uma única plataforma inteligente, oferecendo uma experiência consistente para seus clientes.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">WhatsApp, Facebook, Instagram</div>
+                        <div class="benefit-item">E-mail, Chat Web, Telefone</div>
+                        <div class="benefit-item">Histórico unificado de conversas</div>
+                    </div>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-header">
+                        <div class="feature-icon gradient">
+                            <img src="img/icon_voz_clonada.png" alt="Ícone Voz Clonada" class="feature-icon-img">
+                        </div>
+                        <div class="feature-badge">Exclusivo</div>
+                    </div>
+                    <h3>Clonagem de Voz com Biometria</h3>
+                    <p>Crie uma versão digital da sua voz para atendimento telefônico automatizado com verificação biométrica para máxima segurança.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">Clone de voz em 5 minutos</div>
+                        <div class="benefit-item">Verificação biométrica avançada</div>
+                        <div class="benefit-item">Suporte a múltiplos idiomas</div>
+                    </div>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-header">
+                        <div class="feature-icon">
+                            <img src="img/icon_analytics.png" alt="Ícone Analytics" class="feature-icon-img">
                         </div>
                     </div>
-                    
-                    <div class="demo-content">
-                        <!-- Demo 1: Acesso a Links -->
-                        <div class="demo-panel active" id="demo-links">
-                            <div class="chat-simulation">
-                                <div class="chat-message user">
-                                    <span class="message-avatar">👤</span>
-                                    <div class="message-content">Preciso de um notebook para trabalho</div>
+                    <h3>Analytics em Tempo Real</h3>
+                    <p>Monitore o desempenho do seu atendimento com métricas detalhadas e insights acionáveis para otimizar continuamente sua operação.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">Dashboard personalizado</div>
+                        <div class="benefit-item">Relatórios automáticos</div>
+                        <div class="benefit-item">Análise de sentimento</div>
+                    </div>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-header">
+                        <div class="feature-icon">
+                            <img src="img/icon_integracao.png" alt="Ícone Integração" class="feature-icon-img">
+                        </div>
+                    </div>
+                    <h3>Integração com Sistemas</h3>
+                    <p>Conecte o VozIA com seus sistemas existentes (CRM, ERP, e-commerce) para um fluxo de informações contínuo e eficiente.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">API RESTful completa</div>
+                        <div class="benefit-item">Webhooks personalizáveis</div>
+                        <div class="benefit-item">Integrações pré-configuradas</div>
+                    </div>
+                </div>
+                
+                <div class="feature-card premium animate-on-scroll">
+                    <div class="feature-header">
+                        <div class="feature-icon gradient">
+                            <img src="img/icon_marketing.png" alt="Ícone Marketing" class="feature-icon-img">
+                        </div>
+                        <div class="feature-badge">Premium</div>
+                    </div>
+                    <h3>Marketing Criado por IA</h3>
+                    <p>Gere campanhas de marketing personalizadas com base no histórico e preferências dos seus clientes, aumentando significativamente as taxas de conversão.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">Segmentação automática</div>
+                        <div class="benefit-item">Conteúdo personalizado</div>
+                        <div class="benefit-item">Otimização contínua</div>
+                    </div>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-header">
+                        <div class="feature-icon">
+                            <img src="img/icon_seguranca.png" alt="Ícone Segurança" class="feature-icon-img">
+                        </div>
+                    </div>
+                    <h3>Segurança e Conformidade</h3>
+                    <p>Proteja os dados dos seus clientes com criptografia de ponta a ponta e conformidade com RGPD, LGPD e outras regulamentações de privacidade.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">Criptografia avançada</div>
+                        <div class="benefit-item">Conformidade regulatória</div>
+                        <div class="benefit-item">Backups automáticos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section" id="testimonials">
+        <div class="container testimonials-container">
+            <div class="testimonials-header">
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+                <p class="section-subtitle">Descubra como o VozIA está transformando empresas de todos os tamanhos e setores.</p>
+            </div>
+            
+            <div class="testimonial-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                O VozIA revolucionou nosso atendimento ao cliente. Conseguimos reduzir nossos custos operacionais em 75% enquanto melhoramos significativamente a satisfação dos clientes. A clonagem de voz é simplesmente incrível - nossos clientes nem percebem que estão falando com uma IA!
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="img/testimonial-1.jpg" alt="Ana Silva">
                                 </div>
-                                <div class="chat-message ai">
-                                    <span class="message-avatar">🧠</span>
-                                    <div class="message-content">
-                                        <div class="typing-indicator">
-                                            <span></span><span></span><span></span>
-                                        </div>
-                                        <div class="ai-response">
-                                            Perfeito! Analisando seu perfil e nosso catálogo...
-                                            <div class="link-access">
-                                                <span class="access-icon">🔗</span>
-                                                Acessando catálogo de notebooks...
-                                            </div>
-                                            Encontrei 3 opções ideais para você:
-                                            <div class="product-suggestions">
-                                                <div class="product-card">
-                                                    <span class="product-name">MacBook Pro M3</span>
-                                                    <span class="product-price">€2.199</span>
-                                                    <span class="product-match">95% compatível</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="author-info">
+                                    <h4>Ana Silva</h4>
+                                    <p>Diretora de Atendimento, TechCorp</p>
+                                    <div class="testimonial-rating">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- Demo 2: Marketing IA -->
-                        <div class="demo-panel" id="demo-marketing">
-                            <div class="marketing-creation">
-                                <div class="creation-step">
-                                    <span class="step-icon">📊</span>
-                                    <span class="step-text">Analisando comportamento dos clientes...</span>
-                                </div>
-                                <div class="creation-step">
-                                    <span class="step-icon">🎯</span>
-                                    <span class="step-text">Identificando oportunidades de venda...</span>
-                                </div>
-                                <div class="creation-step">
-                                    <span class="step-icon">✨</span>
-                                    <span class="step-text">Criando campanha personalizada...</span>
-                                </div>
-                                <div class="campaign-result">
-                                    <h4>Campanha Criada: "Volta às Aulas Tech"</h4>
-                                    <p>Segmento: Estudantes universitários</p>
-                                    <p>Produtos: Notebooks e acessórios</p>
-                                    <p>Desconto: 15% + frete grátis</p>
-                                    <p>ROI Previsto: +280%</p>
-                                </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                Como uma imobiliária com alto volume de consultas, precisávamos de uma solução que pudesse lidar com perguntas repetitivas sem perder o toque pessoal. O VozIA não só atende a essa necessidade, mas também nos surpreendeu com sua capacidade de qualificar leads e agendar visitas automaticamente.
                             </div>
-                        </div>
-                        
-                        <!-- Demo 3: Conversa Natural -->
-                        <div class="demo-panel" id="demo-conversation">
-                            <div class="conversation-flow">
-                                <div class="flow-step">
-                                    <span class="flow-icon">👂</span>
-                                    <span class="flow-text">Escuta e compreende contexto</span>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="img/testimonial-2.jpg" alt="Carlos Mendes">
                                 </div>
-                                <div class="flow-step">
-                                    <span class="flow-icon">🧠</span>
-                                    <span class="flow-text">Processa intenção e emoção</span>
-                                </div>
-                                <div class="flow-step">
-                                    <span class="flow-icon">💡</span>
-                                    <span class="flow-text">Gera resposta personalizada</span>
-                                </div>
-                                <div class="flow-step">
-                                    <span class="flow-icon">🎯</span>
-                                    <span class="flow-text">Sugere próxima ação</span>
+                                <div class="author-info">
+                                    <h4>Carlos Mendes</h4>
+                                    <p>CEO, Imobiliária Premium</p>
+                                    <div class="testimonial-rating">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Casos de Sucesso -->
-    <section id="casos-sucesso" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Resultados que Impressionam</h2>
-                <p class="section-subtitle">Empresas reais, resultados reais, transformação real</p>
-            </div>
-            
-            <div class="success-stories">
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="company-logo">🏢</div>
-                        <div class="company-info">
-                            <h4>TechStore Portugal</h4>
-                            <span>E-commerce de Tecnologia</span>
-                        </div>
-                    </div>
-                    <div class="story-content">
-                        <blockquote>
-                            "O VozIA revolucionou nosso atendimento. A IA não só responde perguntas, mas cria campanhas de marketing que aumentaram nossas vendas em 340% em apenas 3 meses."
-                        </blockquote>
-                        <div class="story-metrics">
-                            <div class="metric">
-                                <span class="metric-value">+340%</span>
-                                <span class="metric-label">Vendas</span>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                Nosso call center estava sobrecarregado e não conseguíamos escalar o atendimento sem aumentar significativamente os custos. Com o VozIA, conseguimos automatizar 90% das interações de primeiro nível, permitindo que nossa equipe se concentre em casos mais complexos e de maior valor.
                             </div>
-                            <div class="metric">
-                                <span class="metric-value">-60%</span>
-                                <span class="metric-label">Custos</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-value">98%</span>
-                                <span class="metric-label">Satisfação</span>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="img/testimonial-3.jpg" alt="Mariana Costa">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Mariana Costa</h4>
+                                    <p>Gerente de Operações, GlobalCall</p>
+                                    <div class="testimonial-rating">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="company-logo">🏥</div>
-                        <div class="company-info">
-                            <h4>Clínica Saúde+</h4>
-                            <span>Rede de Clínicas Médicas</span>
-                        </div>
-                    </div>
-                    <div class="story-content">
-                        <blockquote>
-                            "Agendamentos automatizados, lembretes inteligentes e sugestões de tratamentos. O VozIA transformou nossa operação e melhorou a experiência dos pacientes."
-                        </blockquote>
-                        <div class="story-metrics">
-                            <div class="metric">
-                                <span class="metric-value">+250%</span>
-                                <span class="metric-label">Agendamentos</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-value">-45%</span>
-                                <span class="metric-label">Faltas</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-value">95%</span>
-                                <span class="metric-label">NPS</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active"></div>
+                    <div class="testimonial-dot"></div>
+                    <div class="testimonial-dot"></div>
                 </div>
                 
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="company-logo">🏠</div>
-                        <div class="company-info">
-                            <h4>Imobiliária Premium</h4>
-                            <span>Consultoria Imobiliária</span>
-                        </div>
+                <div class="testimonial-arrows">
+                    <div class="testimonial-arrow prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
                     </div>
-                    <div class="story-content">
-                        <blockquote>
-                            "A IA qualifica leads automaticamente e agenda visitas. Nossos corretores agora focam apenas em clientes prontos para comprar. Eficiência total!"
-                        </blockquote>
-                        <div class="story-metrics">
-                            <div class="metric">
-                                <span class="metric-value">+180%</span>
-                                <span class="metric-label">Leads Qualificados</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-value">+120%</span>
-                                <span class="metric-label">Vendas</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-value">70%</span>
-                                <span class="metric-label">Tempo Economizado</span>
-                            </div>
-                        </div>
+                    <div class="testimonial-arrow next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Seção de Planos Premium -->
-    <section id="planos" class="section section-gradient">
+    
+    <!-- Pricing Section -->
+    <section class="pricing-section section" id="pricing">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Planos que Geram Resultados</h2>
-                <p class="section-subtitle">Escolha o plano ideal e comece a transformar seu negócio hoje mesmo</p>
+                <h2 class="section-title">Planos e Preços</h2>
+                <p class="section-subtitle">Escolha o plano ideal para o seu negócio e comece a transformar seu atendimento hoje mesmo.</p>
             </div>
             
             <div class="pricing-toggle">
                 <span class="toggle-label">Mensal</span>
-                <label class="toggle-switch">
-                    <input type="checkbox" id="pricing-toggle">
-                    <span class="toggle-slider"></span>
-                </label>
-                <span class="toggle-label">Anual <span class="discount-badge">-20%</span></span>
+                <div class="toggle-switch"></div>
+                <span class="toggle-label">Anual <span class="text-primary">(20% de desconto)</span></span>
             </div>
             
-            <div class="plans-grid">
-                <!-- Plano Starter -->
-                <div class="plan-card">
-                    <div class="plan-header">
-                        <h3>Starter</h3>
-                        <div class="plan-price">
-                            <span class="currency">€</span>
-                            <span class="amount monthly">29</span>
-                            <span class="amount yearly hidden">23</span>
-                            <span class="period">/mês</span>
-                        </div>
-                        <p class="plan-description">Perfeito para pequenos negócios que querem começar</p>
+            <div class="pricing-grid">
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Básico</h3>
+                        <p class="pricing-description">Ideal para pequenas empresas e profissionais liberais</p>
                     </div>
                     
-                    <div class="plan-features">
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>1 canal de atendimento</span>
+                    <div class="pricing-price">
+                        <div class="price-monthly">
+                            <span class="price-currency">€</span>
+                            <span class="price-amount">49</span>
+                            <span class="price-period">/mês</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>300 interações/mês</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Dashboard básico</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Suporte por chat</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Relatórios básicos</span>
+                        <div class="price-annual" style="display: none;">
+                            <span class="price-currency">€</span>
+                            <span class="price-amount">39</span>
+                            <span class="price-period">/mês</span>
                         </div>
                     </div>
                     
-                    <button class="plan-btn">Começar Agora</button>
+                    <div class="pricing-features">
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Atendimento Multicanal</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Até 1.000 interações/mês</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>1 Usuário</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Integrações básicas</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Suporte por e-mail</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-cross">✗</span>
+                            <span>Clonagem de voz</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-cross">✗</span>
+                            <span>Marketing criado por IA</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-cta">
+                        <a href="#demo" class="btn btn-secondary btn-pricing">Começar Agora</a>
+                    </div>
                 </div>
                 
-                <!-- Plano Pro (Mais Popular) -->
-                <div class="plan-card featured">
-                    <div class="plan-badge">Mais Popular</div>
-                    <div class="plan-header">
-                        <h3>Professional</h3>
-                        <div class="plan-price">
-                            <span class="currency">€</span>
-                            <span class="amount monthly">79</span>
-                            <span class="amount yearly hidden">63</span>
-                            <span class="period">/mês</span>
-                        </div>
-                        <p class="plan-description">Ideal para empresas em crescimento</p>
+                <div class="pricing-card popular animate-on-scroll">
+                    <div class="pricing-badge">Mais Popular</div>
+                    
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Profissional</h3>
+                        <p class="pricing-description">Perfeito para empresas em crescimento</p>
                     </div>
                     
-                    <div class="plan-features">
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>3 canais de atendimento</span>
+                    <div class="pricing-price">
+                        <div class="price-monthly">
+                            <span class="price-currency">€</span>
+                            <span class="price-amount">99</span>
+                            <span class="price-period">/mês</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>1.500 interações/mês</span>
+                        <div class="price-annual" style="display: none;">
+                            <span class="price-currency">€</span>
+                            <span class="price-amount">79</span>
+                            <span class="price-period">/mês</span>
                         </div>
-                        <div class="feature-item premium">
-                            <span class="feature-icon">🔗</span>
-                            <span>Acesso inteligente a links</span>
+                    </div>
+                    
+                    <div class="pricing-features">
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Atendimento Multicanal</span>
                         </div>
-                        <div class="feature-item premium">
-                            <span class="feature-icon">🎯</span>
-                            <span>Marketing criado pela IA</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Até 5.000 interações/mês</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Voz clonada + biometria</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>5 Usuários</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Analytics avançado</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Integrações avançadas</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
                             <span>Suporte prioritário</span>
                         </div>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Clonagem de voz (1 voz)</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-cross">✗</span>
+                            <span>Marketing criado por IA</span>
+                        </div>
                     </div>
                     
-                    <button class="plan-btn primary">Escolher Pro</button>
+                    <div class="pricing-cta">
+                        <a href="#demo" class="btn btn-primary btn-pricing">Começar Agora</a>
+                    </div>
                 </div>
                 
-                <!-- Plano Enterprise -->
-                <div class="plan-card">
-                    <div class="plan-header">
-                        <h3>Enterprise</h3>
-                        <div class="plan-price">
-                            <span class="currency">€</span>
-                            <span class="amount monthly">199</span>
-                            <span class="amount yearly hidden">159</span>
-                            <span class="period">/mês</span>
-                        </div>
-                        <p class="plan-description">Para empresas que precisam do máximo</p>
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Empresarial</h3>
+                        <p class="pricing-description">Solução completa para grandes empresas</p>
                     </div>
                     
-                    <div class="plan-features">
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Canais ilimitados</span>
+                    <div class="pricing-price">
+                        <div class="price-monthly">
+                            <span class="price-currency">€</span>
+                            <span class="price-amount">199</span>
+                            <span class="price-period">/mês</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
+                        <div class="price-annual" style="display: none;">
+                            <span class="price-currency">€</span>
+                            <span class="price-amount">159</span>
+                            <span class="price-period">/mês</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-features">
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Atendimento Multicanal</span>
+                        </div>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
                             <span>Interações ilimitadas</span>
                         </div>
-                        <div class="feature-item premium">
-                            <span class="feature-icon">🔗</span>
-                            <span>Acesso avançado a links</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Usuários ilimitados</span>
                         </div>
-                        <div class="feature-item premium">
-                            <span class="feature-icon">🎯</span>
-                            <span>IA de marketing personalizada</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Integrações personalizadas</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>API personalizada</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Suporte 24/7 dedicado</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Integrações customizadas</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Clonagem de voz (5 vozes)</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>Gerente dedicado</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">✅</span>
-                            <span>SLA garantido</span>
+                        <div class="pricing-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Marketing criado por IA</span>
                         </div>
                     </div>
                     
-                    <div class="enterprise-cta">
-                        <div class="enterprise-badge">ON DEMAND</div>
-                        <p class="enterprise-text">Personalize o plano conforme o tamanho da sua empresa</p>
-                        <button class="plan-btn enterprise-btn">
-                            <span class="btn-icon">👨‍💼</span>
-                            Fale com um Especialista
-                        </button>
+                    <div class="pricing-cta">
+                        <a href="#demo" class="btn btn-secondary btn-pricing">Começar Agora</a>
                     </div>
                 </div>
             </div>
-            
-            <div class="pricing-note">
-                <p>💡 Todos os planos incluem teste gratuito de 14 dias • Sem compromisso • Cancele quando quiser</p>
-            </div>
         </div>
     </section>
-
-    <!-- Seção de Demo/Contato -->
-    <section id="demo" class="section section-cta">
-        <div class="container">
-            <div class="cta-content">
-                <div class="cta-text">
-                    <h2>Pronto para Revolucionar Seu Atendimento?</h2>
-                    <p>Junte-se a milhares de empresas que já transformaram seus resultados com o VozIA. Comece sua demo gratuita agora e veja a diferença em 24 horas.</p>
-                    
-                    <div class="trust-indicators">
-                        <div class="trust-item">
-                            <span class="trust-icon">🔒</span>
-                            <span>100% Seguro</span>
-                        </div>
-                        <div class="trust-item">
-                            <span class="trust-icon">⚡</span>
-                            <span>Setup em 5min</span>
-                        </div>
-                        <div class="trust-item">
-                            <span class="trust-icon">🎯</span>
-                            <span>Resultados em 24h</span>
-                        </div>
-                    </div>
+    
+    <!-- Demo Section -->
+    <section class="demo-section section" id="demo">
+        <div class="container demo-container">
+            <h2 class="demo-title">Experimente o VozIA Gratuitamente</h2>
+            <p class="demo-description">Preencha o formulário abaixo para agendar uma demonstração personalizada e descobrir como o VozIA pode transformar seu atendimento ao cliente.</p>
+            
+            <form class="demo-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Nome Completo</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Seu nome completo" required>
                 </div>
                 
-                <div class="demo-form-container">
-                    <form class="demo-form" id="demoForm">
-                        <div class="form-header">
-                            <h3>Comece Sua Demo Gratuita</h3>
-                            <p>Sem cartão de crédito • Sem compromisso</p>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="nome">Nome completo</label>
-                            <input type="text" id="nome" name="nome" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">E-mail profissional</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="empresa">Nome da empresa</label>
-                            <input type="text" id="empresa" name="empresa" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="telefone">Telefone</label>
-                            <input type="tel" id="telefone" name="telefone" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="setor">Setor de atuação</label>
-                            <select id="setor" name="setor" required>
-                                <option value="">Selecione seu setor</option>
-                                <option value="ecommerce">E-commerce</option>
-                                <option value="saude">Saúde</option>
-                                <option value="educacao">Educação</option>
-                                <option value="imobiliario">Imobiliário</option>
-                                <option value="servicos">Serviços</option>
-                                <option value="tecnologia">Tecnologia</option>
-                                <option value="outro">Outro</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="objetivo">Principal objetivo</label>
-                            <select id="objetivo" name="objetivo" required>
-                                <option value="">O que você mais quer melhorar?</option>
-                                <option value="vendas">Aumentar vendas</option>
-                                <option value="atendimento">Melhorar atendimento</option>
-                                <option value="custos">Reduzir custos</option>
-                                <option value="automacao">Automatizar processos</option>
-                                <option value="marketing">Potencializar marketing</option>
-                            </select>
-                        </div>
-                        
-                        <button type="submit" class="form-submit">
-                            <span class="btn-icon">🚀</span>
-                            Iniciar Demo Gratuita
-                        </button>
-                        
-                        <div class="form-footer">
-                            <p>Ao enviar, você concorda com nossos <a href="#">Termos de Uso</a> e <a href="#">Política de Privacidade</a></p>
-                        </div>
-                    </form>
+                <div class="form-group">
+                    <label for="email" class="form-label">E-mail Profissional</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" required>
                 </div>
-            </div>
+                
+                <div class="form-group">
+                    <label for="company" class="form-label">Empresa</label>
+                    <input type="text" id="company" name="company" class="form-input" placeholder="Nome da sua empresa" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone" class="form-label">Telefone</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="+351 000 000 000">
+                </div>
+                
+                <div class="form-group">
+                    <label for="industry" class="form-label">Setor</label>
+                    <select id="industry" name="industry" class="form-input form-select">
+                        <option value="">Selecione seu setor</option>
+                        <option value="real-estate">Imobiliário</option>
+                        <option value="call-center">Call Center</option>
+                        <option value="ecommerce">E-commerce</option>
+                        <option value="finance">Finanças</option>
+                        <option value="healthcare">Saúde</option>
+                        <option value="education">Educação</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Como podemos ajudar?</label>
+                    <textarea id="message" name="message" class="form-input" placeholder="Conte-nos sobre suas necessidades de atendimento" rows="4"></textarea>
+                </div>
+                
+                <div class="form-group form-checkbox">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">Concordo em receber comunicações da VozIA e aceito a <a href="/termos" target="_blank">Política de Privacidade</a>.</label>
+                </div>
+                
+                <button type="submit" class="form-submit">Solicitar Demonstração</button>
+            </form>
+            
+            <p class="demo-note">Após o envio, nossa equipe entrará em contato em até 24 horas para agendar sua demonstração personalizada.</p>
         </div>
     </section>
-
-    <!-- Footer Premium -->
+    
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-brand">
-                    <div class="logo-container">
-                        <span class="logo">🧠</span>
-                        <span class="brand-name">VozIA</span>
-                        <span class="version-badge">2.0</span>
+                    <div class="footer-logo">
+                        <span class="footer-logo-icon">🧠</span>
+                        <span class="footer-logo-text">VozIA</span>
                     </div>
-                    <p class="brand-description">
-                        A IA mais avançada para atendimento multicanal.<br>
-                        Transformando negócios com inteligência artificial.
-                    </p>
+                    <p class="footer-description">VozIA é uma plataforma de atendimento inteligente baseada em IA que automatiza até 99,9% do seu atendimento ao cliente, oferecendo experiências personalizadas em todos os canais.</p>
                     <div class="social-links">
-                        <a href="#" class="social-link">📧</a>
-                        <a href="#" class="social-link">📱</a>
-                        <a href="#" class="social-link">💼</a>
-                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
                     </div>
                 </div>
                 
-                <div class="footer-links">
-                    <div class="link-group">
-                        <h4>Produto</h4>
-                        <a href="#recursos">Recursos</a>
-                        <a href="#ia-avancada">IA Avançada</a>
-                        <a href="#planos">Planos</a>
-                        <a href="#integracao">Integrações</a>
+                <div class="footer-links-column">
+                    <h4 class="footer-title">Empresa</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="/sobre-nos">Sobre Nós</a></li>
+                        <li class="footer-link"><a href="/blog">Blog</a></li>
+                        <li class="footer-link"><a href="/carreiras">Carreiras</a></li>
+                        <li class="footer-link"><a href="/contato">Contato</a></li>
+                        <li class="footer-link"><a href="/parceiros">Parceiros</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-column">
+                    <h4 class="footer-title">Recursos</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="/recursos/atendimento-multicanal">Atendimento Multicanal</a></li>
+                        <li class="footer-link"><a href="/recursos/clonagem-voz">Clonagem de Voz</a></li>
+                        <li class="footer-link"><a href="/recursos/analytics">Analytics</a></li>
+                        <li class="footer-link"><a href="/recursos/integracoes">Integrações</a></li>
+                        <li class="footer-link"><a href="/recursos/marketing-ia">Marketing IA</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-column">
+                    <h4 class="footer-title">Suporte</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="/central-ajuda">Central de Ajuda</a></li>
+                        <li class="footer-link"><a href="/documentacao">Documentação</a></li>
+                        <li class="footer-link"><a href="/status">Status do Sistema</a></li>
+                        <li class="footer-link"><a href="/tutoriais">Tutoriais</a></li>
+                        <li class="footer-link"><a href="/faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-column">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="/termos">Termos de Uso</a></li>
+                        <li class="footer-link"><a href="/privacidade">Política de Privacidade</a></li>
+                        <li class="footer-link"><a href="/cookies">Política de Cookies</a></li>
+                        <li class="footer-link"><a href="/rgpd">RGPD</a></li>
+                        <li class="footer-link"><a href="/lgpd">LGPD</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contato</h4>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div class="contact-text">+351 910 000 000</div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div class="contact-text">contato@vozia.pt</div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="contact-text">Av. da Liberdade, 110<br>1250-146 Lisboa, Portugal</div>
                     </div>
                     
-                    <div class="link-group">
-                        <h4>Empresa</h4>
-                        <a href="#sobre">Sobre Nós</a>
-                        <a href="#casos-sucesso">Casos de Sucesso</a>
-                        <a href="#blog">Blog</a>
-                        <a href="#carreiras">Carreiras</a>
-                    </div>
-                    
-                    <div class="link-group">
-                        <h4>Suporte</h4>
-                        <a href="#ajuda">Central de Ajuda</a>
-                        <a href="#documentacao">Documentação</a>
-                        <a href="#api">API</a>
-                        <a href="#contato">Contato</a>
-                    </div>
-                    
-                    <div class="link-group">
-                        <h4>Legal</h4>
-                        <a href="#privacidade">Privacidade</a>
-                        <a href="#termos">Termos de Uso</a>
-                        <a href="#cookies">Cookies</a>
-                        <a href="#gdpr">GDPR</a>
+                    <div class="footer-newsletter">
+                        <h4 class="footer-title">Newsletter</h4>
+                        <form class="newsletter-form">
+                            <input type="email" class="newsletter-input" placeholder="Seu e-mail" required>
+                            <button type="submit" class="newsletter-button">Inscrever</button>
+                        </form>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2025 VozIA. Todos os direitos reservados.</p>
-                    <div class="footer-badges">
-                        <span class="badge">🔒 ISO 27001</span>
-                        <span class="badge">🛡️ GDPR Compliant</span>
-                        <span class="badge">⚡ 99.9% Uptime</span>
-                    </div>
+                <div class="copyright">&copy; 2025 VozIA. Todos os direitos reservados.</div>
+                <div class="footer-bottom-links">
+                    <a href="/termos" class="footer-bottom-link">Termos</a>
+                    <a href="/privacidade" class="footer-bottom-link">Privacidade</a>
+                    <a href="/cookies" class="footer-bottom-link">Cookies</a>
                 </div>
             </div>
         </div>
     </footer>
-
+    
+    <!-- Chatbot Demo -->
+    <div class="chatbot-demo">
+        <div class="chatbot-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        </div>
+        
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <div class="chatbot-avatar">🧠</div>
+                <div class="chatbot-title">
+                    <h3>Assistente VozIA</h3>
+                    <div class="chatbot-subtitle">Resposta em segundos</div>
+                </div>
+            </div>
+            
+            <div class="chatbot-body"></div>
+            
+            <div class="chatbot-footer">
+                <div class="chat-input-container">
+                    <input type="text" class="chat-input" placeholder="Digite sua mensagem...">
+                    <button class="chat-send">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </div>
+                <div class="chat-options"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </div>
+    
     <!-- Scripts -->
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 
